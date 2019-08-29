@@ -1,6 +1,6 @@
 peline {
     agent {
-        docker { nginx' }
+        docker { 'alpine' }
     }
     stages {
         stage('Test') {
