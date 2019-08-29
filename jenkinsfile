@@ -1,0 +1,12 @@
+peline {
+    agent {
+        docker { nginx' }
+    }
+    stages {
+        stage('Test') {
+            steps {
+                sh 'node --version'
+            }
+        }
+    }
+}
