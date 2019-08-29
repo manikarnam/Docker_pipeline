@@ -1,2 +1,7 @@
-FROM nginx
-COPY static-html-directory /usr/share/nginx/html
+FROM alpine
+
+RUN apk update
+RUN apk vim
+CMD [echo "succsesfully updated"]
+
+
